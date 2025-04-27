@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await BOT_CHATHU_WEB.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://www.istockphoto.com/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-gm1488105257-513374996?utm_source=pixabay&utm_medium=affiliate&utm_campaign=sponsored_image&utm_content=srp_topbanner_media&utm_term=whatsapp+bot",
               },
               caption: sid,
             });
